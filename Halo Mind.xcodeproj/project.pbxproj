@@ -21,6 +21,8 @@
 		A066EF0A2058593E00D3FF39 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066EF072058593E00D3FF39 /* Bond.framework */; };
 		A066EF0C205860C400D3FF39 /* GamePlayCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0B205860C400D3FF39 /* GamePlayCoordinator.swift */; };
 		A066EF0E2058630200D3FF39 /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0D2058630200D3FF39 /* GamePlayViewController.swift */; };
+		A066EF1020587F5F00D3FF39 /* GameOverCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0F20587F5F00D3FF39 /* GameOverCoordinator.swift */; };
+		A066EF122058805300D3FF39 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF112058805300D3FF39 /* GameOverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		A066EF072058593E00D3FF39 /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = SOURCE_ROOT; };
 		A066EF0B205860C400D3FF39 /* GamePlayCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayCoordinator.swift; sourceTree = "<group>"; };
 		A066EF0D2058630200D3FF39 /* GamePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
+		A066EF0F20587F5F00D3FF39 /* GameOverCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverCoordinator.swift; sourceTree = "<group>"; };
+		A066EF112058805300D3FF39 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				A066EEFE20584C0500D3FF39 /* AppCoordinator.swift */,
 				A066EF0020584CB900D3FF39 /* GameLoadingCoordinator.swift */,
 				A066EF0B205860C400D3FF39 /* GamePlayCoordinator.swift */,
+				A066EF0F20587F5F00D3FF39 /* GameOverCoordinator.swift */,
 				A066EF0220584CF100D3FF39 /* NBackGame.swift */,
 				A066EEE020584AE100D3FF39 /* GameLoadingViewController.swift */,
 				A066EF0D2058630200D3FF39 /* GamePlayViewController.swift */,
+				A066EF112058805300D3FF39 /* GameOverViewController.swift */,
 				A066EEE220584AE100D3FF39 /* Main.storyboard */,
 				A066EEE520584AE100D3FF39 /* Assets.xcassets */,
 				A066EEE720584AE100D3FF39 /* LaunchScreen.storyboard */,
@@ -250,10 +256,12 @@
 				A066EEFF20584C0500D3FF39 /* AppCoordinator.swift in Sources */,
 				A066EF0320584CF100D3FF39 /* NBackGame.swift in Sources */,
 				A066EF0C205860C400D3FF39 /* GamePlayCoordinator.swift in Sources */,
+				A066EF1020587F5F00D3FF39 /* GameOverCoordinator.swift in Sources */,
 				A066EF0E2058630200D3FF39 /* GamePlayViewController.swift in Sources */,
 				A066EEE120584AE100D3FF39 /* GameLoadingViewController.swift in Sources */,
 				A066EEDF20584AE100D3FF39 /* AppDelegate.swift in Sources */,
 				A066EF0120584CB900D3FF39 /* GameLoadingCoordinator.swift in Sources */,
+				A066EF122058805300D3FF39 /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

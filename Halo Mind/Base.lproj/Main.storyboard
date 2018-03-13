@@ -26,8 +26,14 @@
                                     <action selector="didTapStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2BU-Uy-lwF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="n-Back: 1 back game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOK-Oe-LO6">
-                                <rect key="frame" x="107.5" y="323" width="160" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="n-Back: 2 back game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOK-Oe-LO6">
+                                <rect key="frame" x="106" y="323" width="163" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions: you know what to do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsd-3d-yeZ">
+                                <rect key="frame" x="58.5" y="360" width="258" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,8 +43,10 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vE7-EK-cNW" secondAttribute="bottom" constant="20" id="2MU-j4-M7i"/>
                             <constraint firstItem="OOK-Oe-LO6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Lsv-Bz-JXk"/>
+                            <constraint firstItem="gsd-3d-yeZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qhb-ng-zAL"/>
                             <constraint firstItem="vE7-EK-cNW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SgM-vf-ehF"/>
                             <constraint firstItem="OOK-Oe-LO6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dM0-gP-hBc"/>
+                            <constraint firstItem="gsd-3d-yeZ" firstAttribute="top" secondItem="OOK-Oe-LO6" secondAttribute="bottom" constant="16" id="o3x-Ge-pHu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -119,6 +127,61 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="696.79999999999995" y="692.20389805097454"/>
+        </scene>
+        <!--Game Over View Controller-->
+        <scene sceneID="CL9-CO-t3g">
+            <objects>
+                <viewController storyboardIdentifier="WrapUp" id="55V-jW-cav" customClass="GameOverViewController" customModule="Halo_Mind" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="st5-b7-VyJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="VqE-Kg-kp4">
+                                <rect key="frame" x="131" y="195.5" width="113.5" height="276.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Over" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9wb-gM-nel">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="25.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/20 correct" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psj-gh-2UC">
+                                        <rect key="frame" x="0.0" y="85.5" width="103" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reaction times" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zc-oX-3zD">
+                                        <rect key="frame" x="0.0" y="166" width="113.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bly-YZ-ZW8">
+                                        <rect key="frame" x="0.0" y="246.5" width="71" height="30"/>
+                                        <state key="normal" title="Play Again"/>
+                                        <connections>
+                                            <action selector="didTapPlayAgain:" destination="55V-jW-cav" eventType="touchUpInside" id="Drq-V2-sCR"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VqE-Kg-kp4" firstAttribute="centerX" secondItem="st5-b7-VyJ" secondAttribute="centerX" id="Egk-Mt-eMb"/>
+                            <constraint firstItem="VqE-Kg-kp4" firstAttribute="centerY" secondItem="st5-b7-VyJ" secondAttribute="centerY" id="RAh-Eb-uha"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rnk-qv-snb"/>
+                    </view>
+                    <connections>
+                        <outlet property="reactionTimesLabel" destination="1Zc-oX-3zD" id="dbY-LR-yq9"/>
+                        <outlet property="scoreLabel" destination="Psj-gh-2UC" id="mJW-of-379"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fzf-cf-cMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1266" y="769"/>
         </scene>
     </scenes>
 </document>

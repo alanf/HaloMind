@@ -9,7 +9,7 @@
 import Foundation
 
 struct NBackGameDescription {
-    let n = 1
+    let n = 2
     let count = 40
     // TODO: enum to describe stimulus
     let imageNames = ["cat", "shoe", "heart", "fish", "spoon", "shoe"]
@@ -30,6 +30,10 @@ struct NBackGame {
             images.append(description.imageNames[idx])
             if i >= description.n {
                  correct.append(images[i - description.n] == images[i])
+                debugPrint("\(images[i]) == \(images[i - description.n])? \(correct.last)")
+            } else {
+                correct.append(false)
+                debugPrint("false")
             }
         }
         stimulii = images

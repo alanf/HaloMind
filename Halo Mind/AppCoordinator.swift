@@ -9,12 +9,13 @@
 import Foundation
 import UIKit
 
-class AppCoordinator:GameLoadingCoordinatorDelegate, GamePlayCoordinatorDelegate {
+class AppCoordinator:GameLoadingCoordinatorDelegate, GamePlayCoordinatorDelegate, GameOverCoordinatorDelegate {
     private let window: UIWindow
     private let navigationController: UINavigationController
     
     var gameLoadingCoordinator:GameLoadingCoordinator?
     var gamePlayCoordinator: GamePlayCoordinator?
+    var gameOverCoordinator: GameOverCoordinator?
     
     init(window: UIWindow) {
         self.window = window
@@ -36,6 +37,10 @@ class AppCoordinator:GameLoadingCoordinatorDelegate, GamePlayCoordinatorDelegate
         navigationController.setNavigationBarHidden(true, animated: false)
         window.rootViewController = navigationController
         
+        startGame()
+    }
+    
+    func startGame() {
         gameLoadingCoordinator = GameLoadingCoordinator(delegate: self, pushViewController: pushViewController)
         gameLoadingCoordinator?.start()
     }
@@ -54,6 +59,15 @@ class AppCoordinator:GameLoadingCoordinatorDelegate, GamePlayCoordinatorDelegate
     }
     
     func gameEnded(result:NBackResult) {
+        gamePlayCoordinator = nil
         
+        gameOverCoordinator = GameOverCoordinator(delegate: self, pushViewController: pushViewController, gameResult: result)
+        gameOverCoordinator?.start()
+    }
+    
+    func didTapRestart() {
+        gameOverCoordinator = nil
+        navigationController.popToRootViewController(animated: true)
+        startGame()
     }
 }

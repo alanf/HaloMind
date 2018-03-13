@@ -57,7 +57,7 @@ class GamePlayCoordinator: GamePlayViewControllerDelegate {
         
         currentIndex += 1
         if currentIndex >= game.stimulii.count {
-            // TODO: wrap up
+            delegate?.gameEnded(result: result)
             return
         }
         
