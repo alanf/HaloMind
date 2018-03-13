@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A066EEDF20584AE100D3FF39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EEDE20584AE100D3FF39 /* AppDelegate.swift */; };
+		A066EEE120584AE100D3FF39 /* GameLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EEE020584AE100D3FF39 /* GameLoadingViewController.swift */; };
+		A066EEE420584AE100D3FF39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A066EEE220584AE100D3FF39 /* Main.storyboard */; };
+		A066EEE620584AE100D3FF39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A066EEE520584AE100D3FF39 /* Assets.xcassets */; };
+		A066EEE920584AE100D3FF39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A066EEE720584AE100D3FF39 /* LaunchScreen.storyboard */; };
+		A066EEF420584AE100D3FF39 /* Halo_MindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EEF320584AE100D3FF39 /* Halo_MindTests.swift */; };
+		A066EEFF20584C0500D3FF39 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EEFE20584C0500D3FF39 /* AppCoordinator.swift */; };
+		A066EF0120584CB900D3FF39 /* GameLoadingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0020584CB900D3FF39 /* GameLoadingCoordinator.swift */; };
+		A066EF0320584CF100D3FF39 /* NBackGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0220584CF100D3FF39 /* NBackGame.swift */; };
+		A066EF082058593E00D3FF39 /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066EF052058593E00D3FF39 /* Differ.framework */; };
+		A066EF092058593E00D3FF39 /* ReactiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066EF062058593E00D3FF39 /* ReactiveKit.framework */; };
+		A066EF0A2058593E00D3FF39 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A066EF072058593E00D3FF39 /* Bond.framework */; };
+		A066EF0C205860C400D3FF39 /* GamePlayCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0B205860C400D3FF39 /* GamePlayCoordinator.swift */; };
+		A066EF0E2058630200D3FF39 /* GamePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066EF0D2058630200D3FF39 /* GamePlayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A066EEF020584AE100D3FF39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A066EED320584AE100D3FF39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A066EEDA20584AE100D3FF39;
+			remoteInfo = "Halo Mind";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A066EEDB20584AE100D3FF39 /* Halo Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halo Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A066EEDE20584AE100D3FF39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A066EEE020584AE100D3FF39 /* GameLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoadingViewController.swift; sourceTree = "<group>"; };
+		A066EEE320584AE100D3FF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A066EEE520584AE100D3FF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A066EEE820584AE100D3FF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A066EEEA20584AE100D3FF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A066EEEF20584AE100D3FF39 /* Halo MindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Halo MindTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A066EEF320584AE100D3FF39 /* Halo_MindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halo_MindTests.swift; sourceTree = "<group>"; };
+		A066EEF520584AE100D3FF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A066EEFE20584C0500D3FF39 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		A066EF0020584CB900D3FF39 /* GameLoadingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoadingCoordinator.swift; sourceTree = "<group>"; };
+		A066EF0220584CF100D3FF39 /* NBackGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBackGame.swift; sourceTree = "<group>"; };
+		A066EF052058593E00D3FF39 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/iOS/Differ.framework; sourceTree = SOURCE_ROOT; };
+		A066EF062058593E00D3FF39 /* ReactiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveKit.framework; path = Carthage/Build/iOS/ReactiveKit.framework; sourceTree = SOURCE_ROOT; };
+		A066EF072058593E00D3FF39 /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = SOURCE_ROOT; };
+		A066EF0B205860C400D3FF39 /* GamePlayCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayCoordinator.swift; sourceTree = "<group>"; };
+		A066EF0D2058630200D3FF39 /* GamePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A066EED820584AE100D3FF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A066EF0A2058593E00D3FF39 /* Bond.framework in Frameworks */,
+				A066EF092058593E00D3FF39 /* ReactiveKit.framework in Frameworks */,
+				A066EF082058593E00D3FF39 /* Differ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A066EEEC20584AE100D3FF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A066EED220584AE100D3FF39 = {
+			isa = PBXGroup;
+			children = (
+				A066EEDD20584AE100D3FF39 /* Halo Mind */,
+				A066EEF220584AE100D3FF39 /* Halo MindTests */,
+				A066EEDC20584AE100D3FF39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A066EEDC20584AE100D3FF39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A066EEDB20584AE100D3FF39 /* Halo Mind.app */,
+				A066EEEF20584AE100D3FF39 /* Halo MindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A066EEDD20584AE100D3FF39 /* Halo Mind */ = {
+			isa = PBXGroup;
+			children = (
+				A066EEDE20584AE100D3FF39 /* AppDelegate.swift */,
+				A066EEFE20584C0500D3FF39 /* AppCoordinator.swift */,
+				A066EF0020584CB900D3FF39 /* GameLoadingCoordinator.swift */,
+				A066EF0B205860C400D3FF39 /* GamePlayCoordinator.swift */,
+				A066EF0220584CF100D3FF39 /* NBackGame.swift */,
+				A066EEE020584AE100D3FF39 /* GameLoadingViewController.swift */,
+				A066EF0D2058630200D3FF39 /* GamePlayViewController.swift */,
+				A066EEE220584AE100D3FF39 /* Main.storyboard */,
+				A066EEE520584AE100D3FF39 /* Assets.xcassets */,
+				A066EEE720584AE100D3FF39 /* LaunchScreen.storyboard */,
+				A066EF072058593E00D3FF39 /* Bond.framework */,
+				A066EF052058593E00D3FF39 /* Differ.framework */,
+				A066EF062058593E00D3FF39 /* ReactiveKit.framework */,
+				A066EEEA20584AE100D3FF39 /* Info.plist */,
+			);
+			path = "Halo Mind";
+			sourceTree = "<group>";
+		};
+		A066EEF220584AE100D3FF39 /* Halo MindTests */ = {
+			isa = PBXGroup;
+			children = (
+				A066EEF320584AE100D3FF39 /* Halo_MindTests.swift */,
+				A066EEF520584AE100D3FF39 /* Info.plist */,
+			);
+			path = "Halo MindTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A066EEDA20584AE100D3FF39 /* Halo Mind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A066EEF820584AE100D3FF39 /* Build configuration list for PBXNativeTarget "Halo Mind" */;
+			buildPhases = (
+				A066EED720584AE100D3FF39 /* Sources */,
+				A066EED820584AE100D3FF39 /* Frameworks */,
+				A066EED920584AE100D3FF39 /* Resources */,
+				A066EF04205855DD00D3FF39 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halo Mind";
+			productName = "Halo Mind";
+			productReference = A066EEDB20584AE100D3FF39 /* Halo Mind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A066EEEE20584AE100D3FF39 /* Halo MindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A066EEFB20584AE100D3FF39 /* Build configuration list for PBXNativeTarget "Halo MindTests" */;
+			buildPhases = (
+				A066EEEB20584AE100D3FF39 /* Sources */,
+				A066EEEC20584AE100D3FF39 /* Frameworks */,
+				A066EEED20584AE100D3FF39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A066EEF120584AE100D3FF39 /* PBXTargetDependency */,
+			);
+			name = "Halo MindTests";
+			productName = "Halo MindTests";
+			productReference = A066EEEF20584AE100D3FF39 /* Halo MindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A066EED320584AE100D3FF39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Halo Neuro";
+				TargetAttributes = {
+					A066EEDA20584AE100D3FF39 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A066EEEE20584AE100D3FF39 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A066EEDA20584AE100D3FF39;
+					};
+				};
+			};
+			buildConfigurationList = A066EED620584AE100D3FF39 /* Build configuration list for PBXProject "Halo Mind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A066EED220584AE100D3FF39;
+			productRefGroup = A066EEDC20584AE100D3FF39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A066EEDA20584AE100D3FF39 /* Halo Mind */,
+				A066EEEE20584AE100D3FF39 /* Halo MindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A066EED920584AE100D3FF39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A066EEE920584AE100D3FF39 /* LaunchScreen.storyboard in Resources */,
+				A066EEE620584AE100D3FF39 /* Assets.xcassets in Resources */,
+				A066EEE420584AE100D3FF39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A066EEED20584AE100D3FF39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A066EF04205855DD00D3FF39 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bond.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differ.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which carthage >/dev/null; then\ncarthage copy-frameworks\nelse\necho \"error: Carthage not installed, download from https://github.com/Carthage/Carthage\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A066EED720584AE100D3FF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A066EEFF20584C0500D3FF39 /* AppCoordinator.swift in Sources */,
+				A066EF0320584CF100D3FF39 /* NBackGame.swift in Sources */,
+				A066EF0C205860C400D3FF39 /* GamePlayCoordinator.swift in Sources */,
+				A066EF0E2058630200D3FF39 /* GamePlayViewController.swift in Sources */,
+				A066EEE120584AE100D3FF39 /* GameLoadingViewController.swift in Sources */,
+				A066EEDF20584AE100D3FF39 /* AppDelegate.swift in Sources */,
+				A066EF0120584CB900D3FF39 /* GameLoadingCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A066EEEB20584AE100D3FF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A066EEF420584AE100D3FF39 /* Halo_MindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A066EEF120584AE100D3FF39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A066EEDA20584AE100D3FF39 /* Halo Mind */;
+			targetProxy = A066EEF020584AE100D3FF39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A066EEE220584AE100D3FF39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A066EEE320584AE100D3FF39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A066EEE720584AE100D3FF39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A066EEE820584AE100D3FF39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A066EEF620584AE100D3FF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A066EEF720584AE100D3FF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A066EEF920584AE100D3FF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVD83EKD3B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Halo Mind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haloneuro.mind.Halo-Mind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A066EEFA20584AE100D3FF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVD83EKD3B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Halo Mind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haloneuro.mind.Halo-Mind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A066EEFC20584AE100D3FF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVD83EKD3B;
+				INFOPLIST_FILE = "Halo MindTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haloneuro.mind.Halo-MindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halo Mind.app/Halo Mind";
+			};
+			name = Debug;
+		};
+		A066EEFD20584AE100D3FF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVD83EKD3B;
+				INFOPLIST_FILE = "Halo MindTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haloneuro.mind.Halo-MindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halo Mind.app/Halo Mind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A066EED620584AE100D3FF39 /* Build configuration list for PBXProject "Halo Mind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A066EEF620584AE100D3FF39 /* Debug */,
+				A066EEF720584AE100D3FF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A066EEF820584AE100D3FF39 /* Build configuration list for PBXNativeTarget "Halo Mind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A066EEF920584AE100D3FF39 /* Debug */,
+				A066EEFA20584AE100D3FF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A066EEFB20584AE100D3FF39 /* Build configuration list for PBXNativeTarget "Halo MindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A066EEFC20584AE100D3FF39 /* Debug */,
+				A066EEFD20584AE100D3FF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A066EED320584AE100D3FF39 /* Project object */;
+}
